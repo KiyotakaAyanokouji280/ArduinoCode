@@ -24,7 +24,8 @@ Put the following two libraries if wishing to program the microcontroller in C:
 
 ### Compiling the code:
 Use the following command in the same directory as the C file just written:  <br>
-`avr-gcc -mmcu=atmega328p -o output.elf firstembeddedprogram.c`
+`avr-gcc -mmcu=atmega328p -o output.elf your_c_code.c`
+Make sure to replace the 'your_c_code.c' by the name of the file you saved just before.
 
 ### Generating the output HEX file
 The file generated here in the same directory will be burnt onto the Arduino UNO in the next step  <br>
