@@ -16,9 +16,9 @@ This will install all required files for development just using the command line
 ## Set up the code
 
 Put the following two libraries if wishing to program the microcontroller in C:
-`#include <avr/io.h>
-#include <util/delay.h>
-//followed by the rest of the code`
+`#include <avr/io.h>`
+`#include <util/delay.h>`
+`//followed by the rest of the code`
 
 ## Burn to controller and see output
 
